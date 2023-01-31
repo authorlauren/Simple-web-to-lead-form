@@ -1,0 +1,44 @@
+<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+  <input type=hidden name="oid" value="00D7R0000042nDX">
+  <input type=hidden name="retURL" value="https://brave-impala-b5xiwf-dev-ed.my.site.com/portfolio/s/thank-you">
+  
+  <div class="slds-form">
+    <div class="slds-form-element slds-form-element_horizontal">
+      <div class="slds-form-element_label">First Name</div>
+      <div class="slds-form-element_control">
+          <input id="first_name" maxlength="40" name="first_name" placeholder="Type your First Name Here" type="text" class="slds-input" />
+        </div>
+    </div>
+    <div class="slds-form-element slds-form-element_horizontal">
+      <div class="slds-form-element_label">Last Name</div>
+      <div class="slds-form-element_control">
+          <input id="last_name" maxlength="80" name="last_name" placeholder="And Your Last Name Please" type="text" class="slds-input" />
+        </div>
+    </div>
+    <div class="slds-form-element slds-form-element_horizontal">
+      <div class="slds-form-element_label">Email</div>
+      <div class="slds-form-element_control">
+          <input id="email" maxlength="80" name="email" placeholder="Type Your Email Here" type="text" class="slds-input"  />
+        </div>
+    </div>
+    <div class="slds-form-element slds-form-element_horizontal">
+      <div class="slds-form-element_label">Company</div>
+      <div class="slds-form-element_control">
+          <input id="company" maxlength="40" name="company" placeholder="If you don't have a company, Enter Nil" type="text" class="slds-input" />
+        </div>
+    </div>
+    <div class="slds-form-element slds-form-element_horizontal">
+      <div class="slds-form-element_label">Phone</div>
+      <div class="slds-form-element_control">
+          <input id="phone" maxlength="40" name="phone" placeholder="Type Your Phone Number Here" type="text" class="slds-input" />
+        </div>
+    </div>
+      <div class="slds-form-element slds-form-element_horizontal">
+      <div class="slds-form-element_label">Feedback</div>
+      <div class="slds-form-element_control">
+          <input id="feedback" maxlength="40" name="feedback" placeholder="Enter Your Feedback" type="text" class="slds-input" />
+        </div>
+    </div>
+      
+  <input type="submit" name="submit">
+</form>
